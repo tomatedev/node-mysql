@@ -13,6 +13,20 @@ router.get('/', passport.authenticate('jwt', { session: false }), (req, res) => 
     })
 });
 
+
+//Join
+router.get('/post', passport.authenticate('jwt', { session: false }), (req, res) => {
+    var sql = "SELECT  posts.id,posts.message AS post FROM users JOIN posts ON posts.user_id = '"+req.user.id+"'";
+    db.query(sql, 
+        function (err, result) {
+            res.status(200).json({
+                code: res.statusCode,
+                message: 'Post Of User',
+                data: result
+            });
+        });
+});
+
 //USER REGISTER
 router.post('/register', (req, res) => {
     db.query("INSERT INTO Users SET ?",req.body, 
