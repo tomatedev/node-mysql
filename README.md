@@ -5,7 +5,7 @@ node &amp; mysql &amp; jwt
  <pre> npm i <b>or</b> npm install </pre>
 
 # edit config file 
-path ./config/database.js<br>
+<b>path</b> ./config/database.js<br>
  <pre> 
  const db = mysql.createConnection({
      host: "your host",
@@ -15,7 +15,7 @@ path ./config/database.js<br>
 });
 </pre>
 
-path ./script-database/create-database-table.js<br>
+<b>path</b> ./script-database/create-database-table.js<br>
 <pre>
 const db = mysql.createConnection({
     host: "your host",
