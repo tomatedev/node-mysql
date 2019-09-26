@@ -7,11 +7,12 @@ npm i<br>
 npm install
 
 # edit config file 
-const db = mysql.createConnection({
-    host: "your host",
-    user: "your user",
-    password: "your password",
-    database: "node_mysql"
+path config/database.js<br>
+const db = mysql.createConnection({<br>
+    host: "your host",<br>
+    user: "your user",<br>
+    password: "your password",<br>
+    database: "node_mysql"<br>
 });
 
 
