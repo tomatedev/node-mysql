@@ -2,7 +2,7 @@
 node &amp; mysql &amp; jwt
 
 # install
-npm i<br>
+ <pre> npm i </pre><br>
 <b>or</b><br> 
 npm install
 
