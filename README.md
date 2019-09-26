@@ -1,5 +1,5 @@
 # node-mysql-jwt
-node &amp;mysql &amp;jwt
+node &amp; mysql &amp; jwt
 
 # install
 npm i<br>
