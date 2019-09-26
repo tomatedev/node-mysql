@@ -6,6 +6,14 @@ npm i<br>
 <b>or</b><br> 
 npm install
 
+# edit config file 
+const db = mysql.createConnection({
+    host: "your host",
+    user: "your user",
+    password: "your password",
+    database: "node_mysql"
+});
+
 
 # create database
 cd script-database <br>
