@@ -2,8 +2,8 @@
 node&amp;mysql
 
 # install
-npm i
-or 
+npm i<br>
+or<br> 
 npm install
 
 
