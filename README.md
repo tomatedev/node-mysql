@@ -9,14 +9,13 @@ node &amp; mysql &amp; jwt
 # edit config file 
 path ./config/database.js<br>
  <pre> 
- const db = mysql.createConnection({<br>
-     host: "your host",<br>
-     user: "your user",<br>
-     password: "your password",<br>
-     database: "node_mysql"<br>
+ const db = mysql.createConnection({
+     host: "your host",
+     user: "your user",
+     password: "your password",
+     database: "node_mysql"
 });
 </pre>
-<br>
 
 path ./script-database/create-database-table.js<br>
 <pre>
@@ -37,8 +36,9 @@ const db = mysql.createConnection({
 </pre>
 
 # create database
-cd script-database <br>
-node create-database-table.js
+<pre> cd script-database </pre>
+<b>run create database</b>
+<pre> node create-database-table.js</pre>
 
 # run project
 <pre> npm run dev </pre>
