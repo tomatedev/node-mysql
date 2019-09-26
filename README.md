@@ -2,9 +2,7 @@
 node &amp; mysql &amp; jwt
 
 # install
- <pre> npm i </pre>
-<b>or</b>
- <pre> npm install </pre>
+ <pre> npm i <b>or</b> npm install </pre>
 
 # edit config file 
 path ./config/database.js<br>
