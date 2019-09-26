@@ -5,3 +5,8 @@ node&amp;mysql
 npm i
 or 
 npm install
+
+
+#create database
+cd script-database
+node create-database-table.js
