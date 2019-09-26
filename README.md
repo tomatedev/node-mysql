@@ -8,5 +8,5 @@ npm install
 
 
 # create database
-cd script-database 
+cd script-database <br>
 node create-database-table.js
