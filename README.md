@@ -13,7 +13,15 @@ const db = mysql.createConnection({<br>
     user: "your user",<br>
     password: "your password",<br>
     database: "node_mysql"<br>
-});
+});<br>
+
+path script-database/create-database-table.js<br>
+const db = mysql.createConnection({<br>
+    host: "your host",<br>
+    user: "your user",<br>
+    password: "your password",<br>
+    database: "node_mysql"<br>
+});<br>
 
 
 # create database
