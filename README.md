@@ -2,8 +2,8 @@
 node &amp; mysql &amp; jwt
 
 # install
- <pre> npm i </pre><br>
-<b>or</b><br> 
+ <pre> npm i </pre>
+<b>or</b>
  <pre> npm install </pre>
 
 # edit config file 
