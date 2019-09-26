@@ -3,7 +3,7 @@ node&amp;mysql
 
 # install
 npm i<br>
-or<br> 
+<b>or</b><br> 
 npm install
 
 
