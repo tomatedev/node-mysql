@@ -9,12 +9,13 @@ opts.secretOrKey = keys.secretOrKey;
 
 module.exports = passport => {
     passport.use(new jwtStrategy(opts, (jwt_payload, done) => {
-        console.log(jwt_payload);
         var sql = "SELECT * FROM Users WHERE id='"+jwt_payload.id+"'";
         db.query(sql, 
         function (err, [user]) {
-            console.log(user);
-            return done(null, user);
+            if(user){
+                return done(null, user);
+            }
+            return done(null, false);
         });
     }));
 }
