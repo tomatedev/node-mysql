@@ -8,12 +8,15 @@ npm install
 
 # edit config file 
 path config/database.js<br>
-const db = mysql.createConnection({<br>
-     <pre>host: "your host",<br>
-     <pre>user: "your user",<br>
-     <pre>password: "your password",<br>
-     <pre>database: "node_mysql"<br>
-});<br>
+ <pre> 
+ const db = mysql.createConnection({<br>
+     host: "your host",<br>
+     user: "your user",<br>
+     password: "your password",<br>
+     database: "node_mysql"<br>
+});
+</pre>
+<br>
 
 path script-database/create-database-table.js<br>
 const db = mysql.createConnection({<br>
