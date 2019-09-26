@@ -10,3 +10,6 @@ npm install
 # create database
 cd script-database <br>
 node create-database-table.js
+
+# run project
+npm run dev
